@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 550px){
+    .desktop_navigation{
+        display: none;
+    }
+    .brands_images {
+        display: none;
+    }
+    .footer_text {
+    display: none;
+    }
+    .game_text{
+        display: yes;
+    }
+}
+.boxshadow{
+    box-shadow: -2px 2px 13px 0px rgba(223, 235, 235, 0.75);
+}
+.hompage_color {background-color: #0added;
+    background-image: linear-gradient(225deg, #0added 0%, #ffffff 37%, #ffffff 54%, #b7ffda 100%);        
+    height: auto;
+    }
+
+.blog_color {background-color: #0added;
+    background-image: linear-gradient(225deg, #0added 0%, #ffffff 37%, #ffffff 54%, #b7ffda 100%);        
+    height: auto; 
+}
+    
+.hello_color{background-color: #00bdff;
+        background-image: linear-gradient(180deg, #00bdff 0%, #00bdff 50%, #00bdff 100%);
+        }
+
+.icons_color{background-color: #1e01ff;
+    background-image: linear-gradient(210deg, #1e01ff 0%, #00ffff 50%, #ff0000 100%);
+    }
+    
